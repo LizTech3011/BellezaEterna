@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#fff8f5,#ffe8ef);
+    min-height:100vh;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:white;
+    box-shadow:0 2px 15px rgba(0,0,0,0.1);
+}
+
+.logo-container{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo-container img{
+    width:90px;
+    height:auto;
+}
+
+.titulo h1{
+    color:#d48aa3;
+    font-size:2rem;
+}
+
+.titulo span{
+    color:#b8860b;
+}
+
+.titulo p{
+    color:#666;
+    font-size:0.8rem;
+    letter-spacing:2px;
+}
+
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:#444;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#d48aa3;
+}
+
+.activo{
+    color:#d48aa3;
+}
+/* LOGO PRINCIPAL */
+
+.logo-principal{
+    text-align:center;
+    margin:50px 0;
+}
+
+.logo-principal img{
+    width:250px;
+    height:auto;
+}
+
+/* BIENVENIDA */
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero h2{
+    color:#b8860b;
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:800px;
+    margin:auto;
+    color:#555;
+    font-size:1.2rem;
+    line-height:1.6;
+}
+
+/* FRASE */
+
+.frase-destacada{
+    text-align:center;
+    margin:60px 20px;
+}
+
+.frase-destacada h2{
+    color:#d48aa3;
+    font-size:2rem;
+    font-style:italic;
+}
+
+/* PRODUCTOS */
+
+.destacados{
+    padding:50px;
+}
+
+.destacados h2{
+    text-align:center;
+    color:#b8860b;
+    margin-bottom:30px;
+}
+
+.productos{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.producto{
+    background:white;
+    width:280px;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.producto img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+/* NOSOTROS */
+
+.nosotros{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.nosotros h2{
+    color:#b8860b;
+    margin-bottom:20px;
+}
+
+.nosotros p{
+    max-width:900px;
+    margin:auto;
+    line-height:1.8;
+    color:#555;
+}
+
+/* INSTAGRAM */
+
+.instagram{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.instagram h2{
+    color:#b8860b;
+    margin-bottom:15px;
+}
+
+.instagram p{
+    margin-bottom:20px;
+}
+
+.instagram a{
+    display:inline-block;
+    background:#d48aa3;
+    color:white;
+    padding:12px 25px;
+    border-radius:25px;
+    text-decoration:none;
+}
+
+.instagram a:hover{
+    background:#b8860b;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+    background:white;
+}

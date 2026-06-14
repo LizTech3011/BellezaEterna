@@ -1,0 +1,145 @@
+/* =========================
+   RESET BASE
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+/* =========================
+   FONDO GENERAL
+========================= */
+
+body{
+    background:linear-gradient(135deg,#fff8f5,#fdeff2);
+    min-height:100vh;
+}
+
+/* =========================
+   NAVBAR (IGUAL A LOS DEMÁS)
+========================= */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:white;
+    box-shadow:0 2px 15px rgba(0,0,0,0.08);
+    border-bottom:3px solid #f3d6df;
+}
+
+/* LOGO */
+.logo-container{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo-container img{
+    width:80px;
+}
+
+/* TITULO */
+.titulo h1{
+    color:#d48aa3;
+    font-size:2rem;
+    margin:0;
+}
+
+.titulo span{
+    color:#b8860b;
+}
+
+.titulo p{
+    color:#666;
+    font-size:0.8rem;
+}
+
+/* MENU */
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+nav a{
+    text-decoration:none;
+    color:#444;
+    font-weight:600;
+    padding:5px 8px;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#d48aa3;
+    background:#fdeff2;
+}
+
+.activo{
+    color:#d48aa3;
+    border-bottom:2px solid #b8860b;
+}
+
+/* =========================
+   TITULO PRINCIPAL
+========================= */
+
+h1{
+    text-align:center;
+    margin:40px 0;
+    color:#b8860b;
+}
+
+/* =========================
+   FORMULARIO CITA
+========================= */
+
+.cita-container{
+    display:flex;
+    justify-content:center;
+    padding-bottom:50px;
+}
+
+.cita-form{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    width:400px;
+    box-shadow:0 2px 15px rgba(0,0,0,0.1);
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+/* INPUTS */
+.cita-form input,
+.cita-form select,
+.cita-form textarea{
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    outline:none;
+}
+
+/* BOTÓN */
+.cita-form button{
+    background:#b8860b;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.cita-form button:hover{
+    background:#d48aa3;
+}
