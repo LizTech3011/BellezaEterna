@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#fff8f5,#fdeff2);
+    min-height:100vh;
+}
+
+/* Título principal */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:white;
+    box-shadow:0 2px 15px rgba(0,0,0,0.08);
+    border-bottom:3px solid #f3d6df; /* toque rosa suave */
+}
+
+/* LOGO + TITULO */
+.logo-container{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo-container img{
+    width:90px;
+    height:auto;
+}
+
+.titulo h1{
+    color:#d48aa3; /* rosa principal */
+    font-size:2rem;
+    margin:0;
+}
+
+.titulo span{
+    color:#b8860b; /* dorado elegante */
+}
+
+.titulo p{
+    color:#666;
+    font-size:0.8rem;
+    letter-spacing:2px;
+    margin:0;
+}
+
+/* MENU */
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+nav a{
+    text-decoration:none;
+    color:#444;
+    font-weight:600;
+    transition:0.3s;
+    padding:5px 8px;
+    border-radius:6px;
+}
+
+/* HOVER ROSA SUAVE */
+nav a:hover{
+    color:#d48aa3;
+    background:#fdeff2;
+}
+
+/* ACTIVO */
+.activo{
+    color:#d48aa3;
+    border-bottom:2px solid #b8860b;
+}
+
+.contacto h1{
+    text-align:center;
+    font-size:4rem;
+    color:#c79b3b;
+    margin-top:50px;
+    margin-bottom:40px;
+    letter-spacing:4px;
+}
+
+.contacto p{
+    text-align:center;
+    color:#666;
+}
+
+/* Contenedor principal */
+
+.contacto-links{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+
+/* Cuadro */
+
+.contacto-card{
+    width:600px;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+/* Cabecera del cuadro */
+
+.empresa{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    border-bottom:2px solid #f0f0f0;
+    padding-bottom:20px;
+    margin-bottom:25px;
+}
+
+.empresa img{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+}
+
+.empresa h2{
+    color:#6b4f2a;
+    font-size:2rem;
+}
+
+/* Lista de contactos */
+
+.lista-contactos{
+    list-style:none;
+}
+
+.lista-contactos li{
+    margin-bottom:20px;
+    padding:15px;
+    border-radius:10px;
+    background:#faf7f4;
+}
+
+.lista-contactos h3{
+    color:#c79b3b;
+    margin-bottom:8px;
+}
+
+.lista-contactos a{
+    color:#f28ca8;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.lista-contactos a:hover{
+    text-decoration:underline;
+}
+
+.proximamente{
+    color:#999;
+    font-style:italic;
+}

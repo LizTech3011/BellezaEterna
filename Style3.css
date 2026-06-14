@@ -1,0 +1,160 @@
+/* =========================
+   RESET BASE
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+/* =========================
+   FONDO GENERAL
+========================= */
+
+body{
+    background:linear-gradient(135deg,#fff8f5,#fdeff2);
+    min-height:100vh;
+    padding:20px;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:white;
+    box-shadow:0 2px 15px rgba(0,0,0,0.08);
+    border-bottom:3px solid #f3d6df;
+}
+
+/* LOGO */
+.logo-container{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo-container img{
+    width:80px;
+}
+
+/* TITULO */
+.titulo h1{
+    color:#d48aa3;
+    font-size:2rem;
+    margin:0;
+}
+
+.titulo span{
+    color:#b8860b;
+}
+
+.titulo p{
+    color:#666;
+    font-size:0.8rem;
+}
+
+/* MENU */
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+nav a{
+    text-decoration:none;
+    color:#444;
+    font-weight:600;
+    padding:5px 8px;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#d48aa3;
+    background:#fdeff2;
+}
+
+.activo{
+    color:#d48aa3;
+    border-bottom:2px solid #b8860b;
+}
+
+/* =========================
+   TITULO PRINCIPAL
+========================= */
+
+h1{
+    text-align:center;
+    margin:40px 0;
+    color:#b8860b;
+}
+
+/* =========================
+   SECCIONES
+========================= */
+
+section{
+    background:white;
+    margin:20px auto;
+    padding:20px;
+    border-radius:12px;
+    max-width:800px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* TITULOS DE SECCIÓN */
+h2{
+    color:#333;
+    border-bottom:2px solid #f3d6df;
+    padding-bottom:5px;
+    margin-bottom:10px;
+}
+
+/* LISTAS */
+ul{
+    list-style:none;
+}
+
+li{
+    padding:8px 0;
+    border-bottom:1px solid #eee;
+}
+
+/* SOLO HOVER EN LISTAS DE SERVICIOS (NO PROMOS) */
+section ul li:hover{
+    background:#fafafa;
+    transition:0.2s;
+}
+
+/* PRECIOS */
+.precio{
+    color:#b8860b;
+    font-weight:bold;
+}
+
+/* PROMOCIONES */
+.promo{
+    background:#fff8dc;
+}
+
+/* MEJORA VISUAL PROMOS */
+.promo ul li:hover{
+    background:transparent;
+}
+
+/* =========================
+   ESPACIADO EXTRA LIMPIO
+========================= */
+
+section p{
+    margin:8px 0;
+}
